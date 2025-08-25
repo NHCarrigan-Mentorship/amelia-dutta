@@ -1,0 +1,36 @@
+name: Feature
+description: Request a feature
+title: "[Feature]: "
+labels: ["feature"]
+assignees:
+  - 
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Description
+        Describe the feature in detail.
+  - type: input
+    id: feature name
+    attributes:
+      label:  Feature Name
+      description: A short name for the feature
+      placeholder: "Describe the feature in a few words"
+    validations:
+      required: true
+  - type: textarea
+    id: previous-feature
+    attributes:
+      label: Previous Feature
+      description: Describe the previous feature
+      placeholder: "Describe the previous feature"
+    validations:
+      required: true
+  - type: textarea
+    id: new-feature
+    attributes:
+      label: New Feature
+      description: Describe the new feature
+      placeholder: "Describe the new feature"
+    validations:
+      required: true
