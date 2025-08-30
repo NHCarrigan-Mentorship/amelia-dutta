@@ -1,3 +1,4 @@
+---
 name: Bug
 description: Report a bug
 title: "[Bug]: "
@@ -12,15 +13,15 @@ body:
 
         Describe the issue in detail.
   - type: input
-    id: bug name
+    id: bug-name
     attributes:
-      label: Bug
+      label: Bug Name
       description: A short name for the bug
       placeholder: "Describe the bug in a few words"
     validations:
       required: true
   - type: textarea
-    id: Bug behaviour
+    id: bug-behaviour
     attributes:
       label: Bug Behaviour
       description: Describe the bug behaviour
@@ -28,10 +29,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: expected behaviour
+    id: expected-behaviour
     attributes:
       label: Expected Behaviour
       description: Describe the expected behaviour
       placeholder: "Describe the expected behaviour"
     validations:
       required: true
+---
