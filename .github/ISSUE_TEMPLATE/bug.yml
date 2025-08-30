@@ -15,7 +15,7 @@ body:
   - type: input
     id: bug-name
     attributes:
-      label: Bug
+      label: Bug Name
       description: A short name for the bug
       placeholder: "Describe the bug in a few words"
     validations:

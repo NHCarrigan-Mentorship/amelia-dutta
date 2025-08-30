@@ -24,7 +24,7 @@ body:
     attributes:
       label: Previous Feature
       description: Describe the previous feature
-      placeholder: "Describe the previous feature"
+      placeholder: "put N/A if there's not any previous feature"
     validations:
       required: true
   - type: textarea
