@@ -1,3 +1,4 @@
+---
 name: Feature
 description: Request a feature
 title: "[Feature]: "
@@ -34,3 +35,4 @@ body:
       placeholder: "Describe the new feature"
     validations:
       required: true
+---

@@ -1,3 +1,4 @@
+---
 name: Bug
 description: Report a bug
 title: "[Bug]: "
@@ -35,3 +36,4 @@ body:
       placeholder: "Describe the expected behaviour"
     validations:
       required: true
+---

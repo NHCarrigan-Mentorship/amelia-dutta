@@ -1,3 +1,4 @@
+---
 name: Task
 description: Report a task
 title: "[Task]: "
@@ -27,3 +28,4 @@ body:
       placeholder: "Steps to reproduce the issue"
     validations:
       required: true
+---
