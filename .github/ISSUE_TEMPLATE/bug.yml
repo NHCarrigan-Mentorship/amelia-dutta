@@ -13,7 +13,7 @@ body:
 
         Describe the issue in detail.
   - type: input
-    id: bug name
+    id: bug-name
     attributes:
       label: Bug
       description: A short name for the bug
@@ -21,7 +21,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Bug behaviour
+    id: bug-behaviour
     attributes:
       label: Bug Behaviour
       description: Describe the bug behaviour
@@ -29,7 +29,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: expected behaviour
+    id: expected-behaviour
     attributes:
       label: Expected Behaviour
       description: Describe the expected behaviour

@@ -12,7 +12,7 @@ body:
         ## Description
         Describe the feature in detail.
   - type: input
-    id: feature name
+    id: feature-name
     attributes:
       label:  Feature Name
       description: A short name for the feature

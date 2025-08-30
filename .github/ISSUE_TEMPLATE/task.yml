@@ -13,7 +13,7 @@ body:
 
         Describe the issue in detail.
   - type: input
-    id: task name
+    id: task-name
     attributes:
       label:  Task Name
       description: A short name for the task
