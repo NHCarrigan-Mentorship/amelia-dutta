@@ -1,3 +1,4 @@
+---
 name: Feature
 description: Request a feature
 title: "[Feature]: "
@@ -11,7 +12,7 @@ body:
         ## Description
         Describe the feature in detail.
   - type: input
-    id: feature name
+    id: feature-name
     attributes:
       label:  Feature Name
       description: A short name for the feature
@@ -23,7 +24,7 @@ body:
     attributes:
       label: Previous Feature
       description: Describe the previous feature
-      placeholder: "Describe the previous feature"
+      placeholder: "put N/A if there's not any previous feature"
     validations:
       required: true
   - type: textarea
@@ -34,3 +35,4 @@ body:
       placeholder: "Describe the new feature"
     validations:
       required: true
+---
